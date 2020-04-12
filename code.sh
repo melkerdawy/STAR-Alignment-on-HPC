@@ -10,7 +10,7 @@ wget ftp://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_33/GRCh38.p
 gunzip $index_dir_path/GRCh38.primary_assembly.genome.fa.gz 
 
 wget ftp://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_33/gencode.v33.primary_assembly.annotation.gtf.gz -P $index_dir_path
-gunzip $index_dir_path/gencode.v29.primary_assembly.annotation.gtf.gz
+gunzip $index_dir_path/gencode.v33.primary_assembly.annotation.gtf.gz
 
 ## calculte chromosome sizes of the genome
 #if [ $plateform == "HPC" ];then
