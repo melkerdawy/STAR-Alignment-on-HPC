@@ -6,10 +6,10 @@ index_dir_path=$work_dir/hg38_data/
 
 ### Download the human genome data
 ## Nucleotide sequence of the GRCh38 primary genome assembly (chromosomes and scaffolds)
-wget ftp://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_29/GRCh38.primary_assembly.genome.fa.gz -P $index_dir_path
+wget ftp://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_33/GRCh38.primary_assembly.genome.fa.gz -P $index_dir_path
 gunzip $index_dir_path/GRCh38.primary_assembly.genome.fa.gz 
 
-wget ftp://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_29/gencode.v29.primary_assembly.annotation.gtf.gz -P $index_dir_path
+wget ftp://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_33/gencode.v33.primary_assembly.annotation.gtf.gz -P $index_dir_path
 gunzip $index_dir_path/gencode.v29.primary_assembly.annotation.gtf.gz
 
 ## calculte chromosome sizes of the genome
